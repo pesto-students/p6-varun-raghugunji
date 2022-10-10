@@ -1,0 +1,49 @@
+h2 {
+    color: rgb(76, 76, 76);
+
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#main_box {
+    margin: auto 100px;
+    display: flex;
+}
+
+#box1 {
+    color: rgb(102, 102, 102);
+    width: 50%;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#image1 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+}
+
+#box2 {
+
+    color: rgb(102, 102, 102);
+    width: 50%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+#bottom_content {
+    color: rgb(102, 102, 102);
+    margin: auto 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
